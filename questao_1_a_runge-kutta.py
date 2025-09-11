@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Aug  3 16:49:03 2025
-
-@author: melis
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -173,3 +166,4 @@ plt.title(" Error between RK4 and Analytic Solutions ")
 plt.xlabel('t')
 plt.ylabel('Error')
 plt.grid(True)
+
